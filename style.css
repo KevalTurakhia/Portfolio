@@ -160,3 +160,88 @@ header{
 .social i:hover{
 	transform: translateY(-10px);
 }
+
+@media (max-width:1900px){
+	header{
+		padding: 15px 8%;
+		transition: 5s;
+	}
+	section{
+	padding: : 0 8%;
+	transition: 5s;
+	}
+	.share{
+		left: 8%;
+		transition: 5s;
+	}
+	
+
+
+
+@media (max-width:1300px){
+	header{
+		padding: 15px 4%;
+		transition: 2s;
+	}
+	section{
+	padding: : 0 4%;
+	transition: 5s;
+	}
+	.share{
+		left: 4%;
+		transition: 5s;
+	}
+	:root{
+		--big-font: 5rem;
+		--p-font: 1rem;
+		transition: 5s;
+	}
+
+
+} 	
+
+@media (max-width:1000px){
+	.navbar a{
+		margin: 12px;
+	}
+	:root{
+		--big-font: 5rem;
+		--p-font: 1rem;
+		transition: 2s;
+	}
+}
+
+
+@media (max-width:1000px){
+	.share{
+		display: 
+	}
+	section{
+	padding: 70px 4%;
+
+}
+	header{
+	padding:10px 4%;
+	background: #0d1f42;
+
+}
+.home{
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.home-text{
+	order: 1;
+}
+.home-img{
+	margin: auto;
+	height: auto;
+	width: auto;
+}
+.home-img img{
+	max-width: 500px;
+	width: auto;
+	height: auto;
+	
+}
+}
